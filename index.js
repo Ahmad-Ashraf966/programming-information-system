@@ -10,11 +10,11 @@ function getTotalCost(basket, prices) {
 }
 
 // Exercise 6 Handler
-function runEx6() {
+function cal() {
     // Example objects as specified in the exercise
     const prices = { "apple": 100, "banana": 40, "orange": 60 };
     const basket = { "apple": 2, "banana": 5 };
 
     const total = getTotalCost(basket, prices);
-    document.getElementById('res6').innerText = total;
+    document.getElementById('cal6').innerText = total;
 }
